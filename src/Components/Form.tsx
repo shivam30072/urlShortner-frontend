@@ -15,10 +15,10 @@ const Form = ({ url, setInputUrl, handleSubmit, loading }: formProps) => {
 
   return (
     <>
-      <div className="bg-sky-500 w-[30%] p-4 rounded-md text-white font-bold text-2xl ">
+      <div className="bg-sky-500 md:w-[30%] w-[100%] p-4 rounded-md text-white font-bold text-2xl ">
         <span>URL SHORTNER</span>
       </div>
-      <div className="w-[30%]">
+      <div className="md:w-[30%] w-[100%]">
         <input
           value={url}
           onChange={handleChange}
